@@ -3,6 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tacocloud/tacocloud-config
+          uri: https://github.com/stephene-bernardo/config-server
+        default-label: main
 server:
   port: 8888
