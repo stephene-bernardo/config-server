@@ -4,6 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/stephene-bernardo/config-server
+          search-paths: config
         default-label: main
 server:
   port: 8888
