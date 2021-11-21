@@ -13,4 +13,4 @@ eureka:
         defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 sample:
   text: hi did i work!!!
-  secretText: '{cipher} 6092AQA9A89NpT6UkGVaSESip7Yiq6xul9ZzcvRZIZ8spbWhxmvHTlr3vkmvGpZx0gn4rwwcoX3LdRLTty8g5Xfz4Yvw5BowLAzi/F9QVIL8y+SnEUrpEqns+V2dqUY83MAlDraT0ykLn9TH9hko37IXytMtrPrqbknbwgGXBr8cGxwsbvXaWmprOeepL7AJ8tRoXpIZyZjAMHX8oM55RokOV9i7qTvSfBbctfenjNeHwK/rH4P2aJPy7vSI9Q8jt8bp5lhD9524NqouWij5qdZ1N8cJC8aBZbGSAIMsiope3XQWaL7TWnzqf9ZoP7SChpqtffQ/iNf+NhsA//iTd2QBumpg6qjK+yFsd0e8g0ovchnseSZdLiWVmXF6gMMcB1/lnjA='
+  secretText: '{cipher} AQA8or0ZMbD0dJvdZCIRLUP/uGNfkOTwaG6BZ50D+jczC2Z4AndpwsWF+eKTivEYHntA5t2CE0LHnhwG8nskbDBzh+Wr5xZjxEvfkPR117WyxghxFss1v/PxwTN++FHmpUABQeEPzoGO8f0A7MRuiAns/oALvYXfOgnmsPBkefySxBjkIf5VqVEojbIUQ9l5VQspPZ90f/XoQC1Erky/zs9C00g9oEB1P/OfKFi7sxX51uWSv00DvcMsW/u4B7wOdSSELYvirk4CfypOwQA+E2cGbqNjAmnKueAc4KyPP8lT1ZOOAvCsi7BGi0C24swgMG0WacQvuyZTL8x7tNEPAOqGiGMRu1FAg6dDtChpqA9x6Xl4gw8Od6CIFJoalN7GOBs='
