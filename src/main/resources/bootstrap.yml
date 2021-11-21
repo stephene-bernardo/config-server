@@ -1,0 +1,7 @@
+encrypt:
+  key-store:
+#    location: file:///C:/Users/karl.bernardo/normalcode/server.jks
+    location: classpath:/server.jks
+    password: letmein
+    alias: mytestkey
+    secret: letmein

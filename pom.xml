@@ -28,6 +28,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -41,7 +45,31 @@
 		</dependencies>
 	</dependencyManagement>
 
+
+
 	<build>
+<!--			<resources>-->
+<!--				<resource>-->
+<!--					<directory>src/main/resources</directory>-->
+<!--					<filtering>true</filtering>-->
+<!--					<includes>-->
+<!--						<include>**/*.xml</include>-->
+<!--					</includes>-->
+<!--					<excludes>-->
+<!--						<exclude>**/*.jks</exclude>-->
+<!--					</excludes>-->
+<!--				</resource>-->
+<!--				<resource>-->
+<!--					<directory>src/main/resources</directory>-->
+<!--					<filtering>false</filtering>-->
+<!--					<includes>-->
+<!--						<include>**/*.jks</include>-->
+<!--					</includes>-->
+<!--					<excludes>-->
+<!--						<exclude>**/*.xml</exclude>-->
+<!--					</excludes>-->
+<!--				</resource>-->
+<!--		</resources>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
