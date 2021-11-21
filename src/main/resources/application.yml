@@ -1,10 +1,23 @@
 spring:
   cloud:
     config:
+      token: roottoken
       server:
         git:
           uri: https://github.com/stephene-bernardo/config-server
           search-paths: config
+          order: 2
+        vault:
+          authentication: TOKEN
+          token: roottoken
+          host: localhost
+          port: 8200
+          scheme: http
+          order: 1
         default-label: main
+  profiles:
+    active:
+      - vault
+      - git
 server:
   port: 8888
